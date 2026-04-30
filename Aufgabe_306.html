@@ -1,64 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Spalten</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--W3C Framework-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="css/custom.css">
-</head>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="css/abschlussarbeit.css">
 <body>
-    <header class="w3-container w3-green">
-      <h1 class="w3-jumbo">Spalten für ein Layout</h1>
-    </header>
-    <nav class="w3-bar w3-border w3-light-grey w3-large">
-      <a href="#" class="w3-bar-item w3-button w3-border-right">Home</a>
-      <a href="#" class="w3-bar-item w3-button w3-border-right">Link 1</a>
-      <a href="#" class="w3-bar-item w3-button w3-border-right">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button w3-border-right">Link 3</a>
-    </nav>
-
-<!-- Spalten -->
-
-<div class="w3-row">
-  <div class="w3-col s2 w3-green w3-center" style="flex:1;">
-    <p>Web pages can be viewed using many different devices.</p>
+<!-- Navigation -->
+<div class="w3-bar w3-border w3-light-grey">
+  <div class="w3-right">
+    <a href="#" class="w3-bar-item w3-button w3-text-teal">Home</a>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
   </div>
-  <div class="w3-col s8 w3-red w3-center" style="flex:1;">
-    <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
-  </div>
-  <div class="w3-col s2 w3-blue w3-center" style="flex:1;">
-    <p>Web pages can be viewed using many different devices.</p>
+</div>
+<!-- Headerbild ink Titel -->
+<div class="w3-display-container">
+  <img src="img/startseite-header.jpg" 
+       alt="früchte" 
+       style="width:100%; height:400px; object-fit:cover;" 
+       class="w3-opacity-min">
+
+  <div class="w3-display-middle w3-large w3-text-white w3-center">
+    <h1 class="w3-xxxlarge w3-text-white w3-animate-top">Willkommen bei Fruchtmix</h1>
   </div>
 </div>
 
-<div class="w3-row">
-  <div class="w3-col m4 w3-yellow w3-center">
-  <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
+<!-- ZWEI-SPALTEN-BEREICH -->
+<div class="w3-row-padding w3-margin-top w3-container">
+  <div class="w3-col w3-padding l7 m7 w3-yellow">
+    <h2>Unsere Mission</h2>
+    <p>Hier kommt ein Text zu unseren Zielen und Werten. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
   </div>
-  <div class="w3-col m4 w3-black w3-center">
-    <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
-  </div>
-  <div class="w3-col m4 w3-orange w3-center">
-    <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
-  </div>
-</div>
-
-<div class="w3-row">
-  <div class="w3-col s2 m2 w3-green w3-center">
-  <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
-  </div>
-  <div class="w3-col s10 m8 w3-red w3-center">
-    <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
-  </div>
-  <div class="w3-col s12 m2 w3-blue w3-center">
-    <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device size.</p>
+  <div class="w3-col w3-padding l5 m5">
+     <img src="img/Früchte.jpg" alt="früchte" style="width:100%; height:300px; object-fit:cover;" >   
   </div>
 </div>
 
-    <footer class="w3-container w3-light-blue">
-      <p>Dies ist mein Footer.</p>
-    </footer>
+<!-- CARD -->
+<div class="w3-container w3-padding-32">
+  <div class="w3-card-4 w3-padding-large w3-pink w3-hover-shadow smooth-hover" style="max-width:800px; margin:0 auto;">
+    <h2 class="w3-text-teal">„Frische Früchte – voller Energie für deinen Tag.“</h2>
+    <a href="#" class="w3-button w3-teal">Jetzt zu unserm Angebot</a>
+  </div>
+</div>
+</div>
+
+
+<!-- TEAM -->
+<div class="w3-container w3-padding-32">
+  <h2 class="w3-center">Unser Team</h2>
+  <p class="w3-center">Die Menschen hinter Fruchtmix</p>
+  <hr class="w3-border-teal" style="width:60px; border-width:3px; margin:16px auto 32px;">
+
+  <div class="w3-row-padding">
+    <!-- Mitarbeiter 1 -->
+    <div class="w3-col l3 s6 s6 w3-margin-bottom">
+      <div class="w3-card w3-center w3-padding-16">
+        <img src="img/Platzhalter.png" alt="Mitarbeiter 1"
+             style="width:100%; height:200px; object-fit:cover;">
+        <div class="w3-container">
+          <h4 class="w3-margin-top">Elin Müller</h4>
+          <p class="w3-text-grey" style="font-size:0.9rem;">Geschäftsführerin</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mitarbeiter 2 -->
+    <div class="w3-col l3 s6 s6 w3-margin-bottom">
+      <div class="w3-card w3-center w3-padding-16">
+        <img src="img/Platzhalter.png" alt="Mitarbeiter 2"
+             style="width:100%; height:200px; object-fit:cover;">
+        <div class="w3-container">
+          <h4 class="w3-margin-top">Lara Bernet</h4>
+          <p class="w3-text-grey" style="font-size:0.9rem;">Creatve Director</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mitarbeiter 3 -->
+    <div class="w3-col l3 s6 s6 w3-margin-bottom">
+      <div class="w3-card w3-center w3-padding-16">
+        <img src="img/Platzhalter.png" alt="Mitarbeiter 3"
+             style="width:100%; height:200px; object-fit:cover;">
+        <div class="w3-container">
+          <h4 class="w3-margin-top">Ellen Pfäffli</h4>
+          <p class="w3-text-grey" style="font-size:0.9rem;">Marketing</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mitarbeiter 4 -->
+    <div class="w3-col l3 s6 s6 w3-margin-bottom">
+      <div class="w3-card w3-center w3-padding-16">
+        <img src="img/Platzhalter.png" alt="Mitarbeiter 4"
+             style="width:100%; height:200px; object-fit:cover;">
+        <div class="w3-container">
+          <h4 class="w3-margin-top">Phillipe Zuber</h4>
+          <p class="w3-text-grey" style="font-size:0.9rem;">Einkauf & Logistik</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="w3-container w3-teal w3-padding-32 w3-margin-top">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h4>Fruchtmix</h4>
+      <p>Frische Früchte direkt zu dir.</p>
+    </div>
+    <div class="w3-third">
+      <h4>Socials</h4>
+      <p><a href="#" class="w3-text-white">Instagram</a></p>
+      <p><a href="#" class="w3-text-white">Facebook</a></p>
+      <p><a href="#" class="w3-text-white">LinkedIn</a></p>
+    </div>
+    <div class="w3-third">
+      <h4>Formelles</h4>
+      <p>Elin Müller, Lara Bernet, Ellen Pfäffli</p>
+      <p>Dokumenttitel</p>
+      <p>Abgabedatum</p>
+  </div>
+</footer>
+
 </body>
 </html>
