@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>Unsere Früchte</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="css/abschlussarbeit.css">
+
+<body>
+
+<!-- Navigation -->
+<div class="w3-bar w3-border w3-light-grey">
+  <div class="w3-right">
+    <a href="Aufgabe_306.html" class="w3-bar-item w3-button">Home</a>
+    <a href="html/Früchteseite.html" class="w3-bar-item w3-button w3-text-teal">Unser Angebot</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  </div>
+</div>
+
+<!-- Headerbild ink Titel -->
+<div class="w3-display-container">
+  <img src="../img/Unsere Früchte-Header.jpeg" 
+       alt="Unsere Früchte" 
+       style="width:100%; height:400px; object-fit:cover;" 
+       class="w3-opacity-min">
+
+  <div class="w3-display-middle w3-large w3-text-white w3-center">
+    <h1 class="w3-xxxlarge w3-text-white w3-animate-top">Unsere Früchte</h1>
+  </div>
+</div>
+
+<!-- INTRO -->
+<div class="w3-container w3-padding-32 w3-center">
+  <h2>Frische Vielfalt für dich</h2>
+  <p>Entdecke unsere Auswahl an hochwertigen Früchten und Mixen.</p>
+</div>
+
+<!-- ACCORDION -->  
+ <div class="w3-container w3-padding-32 w3-center">
+  <h2>Video zum Rezept</h2>
+
+  <div class="w3-grey w3-card w3-padding-64" style="max-width:800px; margin:auto;">
+    <p style="font-size:1.2rem;">Hier kommt später Accordeon</p>
+  </div>
+</div>
+
+<!-- EXTRA SECTION -->
+<div class="w3-container w3-padding-32 w3-light-grey">
+  <div class="w3-row-padding">
+
+    <div class="w3-third">
+      <div class="w3-card w3-padding">
+        <h3>🌱 Nachhaltig</h3>
+        <p>Wir achten auf regionale Produkte und kurze Transportwege.</p>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card w3-padding">
+        <h3>⚡ Frisch</h3>
+        <p>Unsere Früchte kommen direkt vom Markt zu dir.</p>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card w3-padding">
+        <h3>❤️ Qualität</h3>
+        <p>Nur die besten Früchte schaffen es in unsere Boxen.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="w3-container w3-teal w3-padding-32 w3-margin-top">
+  <div class="w3-center">
+    <p>© 2026 Fruchtmix</p>
+  </div>
+</footer>
+
+<!-- SCRIPT -->
+<script>
+function toggleAcc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
