@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>Fruchtsalat</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="css/abschlussarbeit.css">
@@ -26,21 +26,36 @@
 </div>
 
 <!-- ZWEI-SPALTEN-BEREICH -->
-<div class="w3-row-padding w3-margin-top w3-container">
-  <div class="w3-col w3-padding l7 m7 w3-yellow">
+<div class="w3-row-padding w3-margin-top w3-container" style="display:flex; align-items:stretch;">
+  
+  <div class="w3-col w3-padding l7 m7 w3-yellow" style="display:flex; flex-direction:column;">
     <h2>Unsere Mission</h2>
-    <p>Hier kommt ein Text zu unseren Zielen und Werten. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    <p>
+      Hier kommt ein Text zu unseren Zielen und Werten. Unsere Mission ist es, frische, gesunde und köstliche 
+      Fruchtsalate für jeden zugänglich zu machen. Wir glauben daran, dass natürliche Ernährung nicht nur gut 
+      für den Körper ist, sondern auch Freude bereiten soll. Deshalb setzen wir auf hochwertige Zutaten, kreative 
+      Kombinationen und eine liebevolle Zubereitung. Ein zentraler Wert für uns ist Frische. Unsere Früchte werden 
+      sorgfältig ausgewählt und möglichst saisonal bezogen, damit Geschmack und Qualität immer überzeugen. Gleichzeitig 
+      legen wir großen Wert auf Nachhaltigkeit: Wir achten auf umweltfreundliche Verpackungen und bevorzugen regionale 
+      Lieferanten, wann immer es möglich ist.Darüber hinaus stehen Transparenz und Vertrauen bei uns an erster Stelle. 
+      Unsere Kundinnen und Kunden sollen genau wissen, was sie genießen – ohne versteckte Zusätze oder künstliche Aromen. 
+      Nicht zuletzt ist uns Vielfalt wichtig. Ob klassisch, exotisch oder individuell zusammengestellt – wir möchten für 
+      jeden Geschmack das passende Angebot bieten und inspirieren, gesunde Ernährung neu zu entdecken.
+    </p>
   </div>
-  <div class="w3-col w3-padding l5 m5">
-     <img src="img/Früchte.jpg" alt="früchte" style="width:100%; height:300px; object-fit:cover;" >   
+
+  <div class="w3-col l5 m5" style="display:flex;">
+    <img src="img/Früchte.jpg" alt="früchte" 
+         style="width:100%; height:100%; object-fit:cover;">
   </div>
+
 </div>
 
 <!-- CARD -->
 <div class="w3-container w3-padding-32">
   <div class="w3-card-4 w3-padding-large w3-pink w3-hover-shadow smooth-hover" style="max-width:800px; margin:0 auto;">
     <h2 class="w3-text-teal">„Frische Früchte – voller Energie für deinen Tag.“</h2>
-    <a href="#" class="w3-button w3-teal">Jetzt zu unserm Angebot</a>
+    <a href="#" class="w3-button w3-teal">Jetzt zu unserem Angebot</a>
   </div>
 </div>
 </div>
@@ -56,8 +71,7 @@
     <!-- Mitarbeiter 1 -->
     <div class="w3-col l3 s6 s6 w3-margin-bottom">
       <div class="w3-card w3-center w3-padding-16">
-        <img src="img/Platzhalter.png" alt="Mitarbeiter 1"
-             style="width:100%; height:200px; object-fit:cover;">
+        <img src="img/Elin_Portrait.png" alt="Mitarbeiter 1" class="team-img">
         <div class="w3-container">
           <h4 class="w3-margin-top">Elin Müller</h4>
           <p class="w3-text-grey" style="font-size:0.9rem;">Geschäftsführerin</p>
@@ -68,11 +82,10 @@
     <!-- Mitarbeiter 2 -->
     <div class="w3-col l3 s6 s6 w3-margin-bottom">
       <div class="w3-card w3-center w3-padding-16">
-        <img src="img/Platzhalter.png" alt="Mitarbeiter 2"
-             style="width:100%; height:200px; object-fit:cover;">
+        <img src="img/Lara_Portrait.png" alt="Mitarbeiter 2" class="team-img">
         <div class="w3-container">
           <h4 class="w3-margin-top">Lara Bernet</h4>
-          <p class="w3-text-grey" style="font-size:0.9rem;">Creatve Director</p>
+          <p class="w3-text-grey" style="font-size:0.9rem;">Creative Director</p>
         </div>
       </div>
     </div>
@@ -80,8 +93,7 @@
     <!-- Mitarbeiter 3 -->
     <div class="w3-col l3 s6 s6 w3-margin-bottom">
       <div class="w3-card w3-center w3-padding-16">
-        <img src="img/Platzhalter.png" alt="Mitarbeiter 3"
-             style="width:100%; height:200px; object-fit:cover;">
+        <img src="img/Ellen_Portrait.png" alt="Mitarbeiter 3" class="team-img">
         <div class="w3-container">
           <h4 class="w3-margin-top">Ellen Pfäffli</h4>
           <p class="w3-text-grey" style="font-size:0.9rem;">Marketing</p>
@@ -92,8 +104,7 @@
     <!-- Mitarbeiter 4 -->
     <div class="w3-col l3 s6 s6 w3-margin-bottom">
       <div class="w3-card w3-center w3-padding-16">
-        <img src="img/Platzhalter.png" alt="Mitarbeiter 4"
-             style="width:100%; height:200px; object-fit:cover;">
+        <img src="img/Philippe_Zuber_Portrait.webp" alt="Mitarbeiter 4" class="team-img">
         <div class="w3-container">
           <h4 class="w3-margin-top">Phillipe Zuber</h4>
           <p class="w3-text-grey" style="font-size:0.9rem;">Einkauf & Logistik</p>
@@ -121,7 +132,7 @@
       <h4>Formelles</h4>
       <p>Elin Müller, Lara Bernet, Ellen Pfäffli</p>
       <p>Dokumenttitel</p>
-      <p>Abgabedatum</p>
+      <p>Abgabe am 1. Juni 2026</p>
   </div>
 </footer>
 
