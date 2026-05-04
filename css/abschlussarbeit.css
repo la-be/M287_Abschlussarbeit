@@ -1,0 +1,7 @@
+.smooth-hover {
+    transition: all 0.3s ease;
+}
+
+.smooth-hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);}
