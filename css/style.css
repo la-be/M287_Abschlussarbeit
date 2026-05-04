@@ -1,0 +1,13 @@
+/* Grundstil für die ganze Seite */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Überschrift */
+h1 {
+    color: #bf00ff;
+}
