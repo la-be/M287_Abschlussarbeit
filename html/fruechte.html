@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-<title>Unsere Früchte</title>
-<link rel="icon" type="image/x-icon" href="../img/favicon_apple.svg">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="css/abschlussarbeit.css">
+<head>
+  <title>Unsere Früchte</title>
+  <link rel="icon" type="image/x-icon" href="../img/favicon_apple.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="css/abschlussarbeit.css">
+</head>
 
 <body>
 
@@ -17,7 +19,7 @@
   </div>
 </div>
 
-<!-- Headerbild ink Titel -->
+<!-- Headerbild inkl. Titel -->
 <div class="w3-display-container">
   <img src="../img/Unsere Früchte-Header.jpeg" 
        alt="Unsere Früchte" 
@@ -40,40 +42,46 @@
 
   <h2>Die beliebtesten Früchte</h2>
   <p>Sie punkten durch Gesundheit, einfache Handhabung als Snack und Verfügbarkeit</p>
-    
-  <button onclick="toggleAcc('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Äpfel</button>
-  <div id="Demo1" class="w3-container w3-hide">
-    <p>Äpfel sind sehr beliebt, weil sie lecker, gesund und vielseitig sind.
-      Sie schmecken süss oder leicht sauer und können überall einfach gegessen werden.
-      Ausserdem enthalten Äpfel wichtige Vitamine und Ballaststoffe.
-      Man kann Äpfel roh essen, zu Saft pressen oder in Desserts und Kuchen verwenden.</p>
-    <audio controls style="width:100%; margin-top:10px;">
-      <source src="../audio/apple.mp3" type="audio/mpeg">
-      Dein Browser unterstützt das Audio-Element nicht.
-    </audio>
-  </div>
 
-  <button onclick="toggleAcc('Demo2')" class="w3-btn w3-block w3-black w3-left-align">Bananen</button>
-  <div id="Demo2" class="w3-container w3-hide">
-    <p>Bananen sind beliebt, weil sie süss schmecken, gesund sind und schnell Energie geben.
-      Sie enthalten viele Vitamine und Mineralstoffe, besonders Kalium.
-      Ausserdem kann man Bananen leicht mitnehmen und ohne Messer essen. Viele Menschen essen sie zum Frühstück, als Snack oder in Smoothies und Desserts.</p>
-    <audio controls style="width:100%; margin-top:10px;">
-      <source src="../audio/banana.mp3" type="audio/mpeg">
-      Dein Browser unterstützt das Audio-Element nicht.
+  <details>
+    <summary class="w3-btn w3-block w3-black w3-left-align">Äpfel</summary>
+    <div class="w3-container">
+      <p>Äpfel sind sehr beliebt, weil sie lecker, gesund und vielseitig sind.
+        Sie schmecken süss oder leicht sauer und können überall einfach gegessen werden.
+        Ausserdem enthalten Äpfel wichtige Vitamine und Ballaststoffe.
+        Man kann Äpfel roh essen, zu Saft pressen oder in Desserts und Kuchen verwenden.</p>
+      <audio controls style="width:100%; margin-top:10px;">
+        <source src="../audio/apple.mp3" type="audio/mpeg">
+        Dein Browser unterstützt das Audio-Element nicht.
       </audio>
     </div>
+  </details>
 
-  <button onclick="toggleAcc('Demo3')" class="w3-btn w3-block w3-black w3-left-align">Wassermelonen</button>
-  <div id="Demo3" class="w3-container w3-hide">
-    <p>Wassermelonen sind beliebt, weil sie süss, saftig und erfrischend sind.
-      Besonders im Sommer essen viele Menschen gerne Wassermelonen, da sie viel Wasser enthalten und beim Abkühlen helfen.
-      Ausserdem sind sie gesund und enthalten Vitamine.</p>
-    <audio controls style="width:100%; margin-top:10px;">
-      <source src="../audio/watermelon.mp3" type="audio/mpeg">
-      Dein Browser unterstützt das Audio-Element nicht.
-    </audio>
+  <details>
+    <summary class="w3-btn w3-block w3-black w3-left-align">Bananen</summary>
+    <div class="w3-container">
+      <p>Bananen sind beliebt, weil sie süss schmecken, gesund sind und schnell Energie geben.
+        Sie enthalten viele Vitamine und Mineralstoffe, besonders Kalium.
+        Ausserdem kann man Bananen leicht mitnehmen und ohne Messer essen. Viele Menschen essen sie zum Frühstück, als Snack oder in Smoothies und Desserts.</p>
+      <audio controls style="width:100%; margin-top:10px;">
+        <source src="../audio/banana.mp3" type="audio/mpeg">
+        Dein Browser unterstützt das Audio-Element nicht.
+      </audio>
     </div>
+  </details>
+
+  <details>
+    <summary class="w3-btn w3-block w3-black w3-left-align">Wassermelonen</summary>
+    <div class="w3-container">
+      <p>Wassermelonen sind beliebt, weil sie süss, saftig und erfrischend sind.
+        Besonders im Sommer essen viele Menschen gerne Wassermelonen, da sie viel Wasser enthalten und beim Abkühlen helfen.
+        Ausserdem sind sie gesund und enthalten Vitamine.</p>
+      <audio controls style="width:100%; margin-top:10px;">
+        <source src="../audio/watermelon.mp3" type="audio/mpeg">
+        Dein Browser unterstützt das Audio-Element nicht.
+      </audio>
+    </div>
+  </details>
 </div>
 
 
@@ -109,22 +117,27 @@
 
 <!-- FOOTER -->
 <footer class="w3-container w3-teal w3-padding-32 w3-margin-top">
-  <div class="w3-center">
-    <p>© 2026 Fruchtmix</p>
+  <div class="w3-row-padding">
+
+    <div class="w3-third">
+      <h3>Fruchtmix</h3>
+      <p>by Lara Bernet, Elin Müller und Ellen Pfäffli</p>
+    </div>
+
+    <div class="w3-third">
+      <h3>Socials</h3>
+      <p><a href="https://www.instagram.com/ki_fruechte/" class="w3-text-white" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+      <p><a href="https://www.facebook.com/" class="w3-text-white" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+      <p><a href="https://www.linkedin.com/company/jufico-gmbh/" class="w3-text-white" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </div>
+
+    <div class="w3-third">
+      <h3>Formelles</h3>
+      <p>Bernet_Mueller_Pffaeli_mma25b_M287</p>
+      <p>01.06.2026</p>
+    </div>
   </div>
 </footer>
-
-<!-- SCRIPT -->
-<script>
-function toggleAcc(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
 
 </body>
 </html>
