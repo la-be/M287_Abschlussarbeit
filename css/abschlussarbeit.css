@@ -35,6 +35,39 @@ h1, h2, h3{
   align-items: stretch;
 }
 
+.recipe-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 0 -12px;
+}
+
+.recipe-col {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 260px;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.recipe-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 992px) {
+  .recipe-col {
+    width: 100% !important;
+    min-width: 100%;
+    padding: 0 0 16px 0;
+  }
+}
+
 .box {
   height: 100%;
   padding: 20px;
