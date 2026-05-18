@@ -29,3 +29,14 @@ h1, h2, h3{
     background-color: #f1f1f1;
 }
 
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.box {
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+}
