@@ -29,6 +29,36 @@ h1, h2, h3{
     background-color: #f1f1f1;
 }
 
+.two-column-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.two-column-responsive .w3-col {
+  min-width: 0;
+}
+
+.full-width-mobile-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .two-column-responsive {
+    flex-direction: column;
+  }
+
+  .two-column-responsive .w3-col {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .two-column-responsive .full-width-mobile-image {
+    height: auto !important;
+  }
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
