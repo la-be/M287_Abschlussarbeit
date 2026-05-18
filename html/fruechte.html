@@ -9,10 +9,35 @@
 
 <style>
   @media screen and (max-width: 600px) {
-    .w3-display-middle h1 {
-      font-size: 2rem !important;
-    }
+
+  .w3-display-middle h1 {
+    font-size: 2rem !important;
   }
+
+  .w3-bar .w3-bar-item {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .w3-right {
+    float: none !important;
+  }
+
+  .accordion-section {
+    padding: 10px;
+  }
+
+  .w3-container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .w3-third {
+    margin-bottom: 16px;
+  }
+
+}
 
   .hero-image {
     width: 100%;
@@ -89,7 +114,7 @@
         Ausserdem enthalten Äpfel wichtige Vitamine und Ballaststoffe.
         Man kann Äpfel roh essen, zu Saft pressen oder in Desserts und Kuchen verwenden.</p>
 
-      <audio controls>
+      <audio controls class="responsive-audio">
         <source src="../audio/apple.mp3" type="audio/mpeg">
         Dein Browser unterstützt das Audio-Element nicht.
       </audio>
@@ -103,7 +128,7 @@
         Sie enthalten viele Vitamine und Mineralstoffe, besonders Kalium.
         Ausserdem kann man Bananen leicht mitnehmen und ohne Messer essen. Viele Menschen essen sie zum Frühstück, als Snack oder in Smoothies und Desserts.</p>
       
-        <audio controls>
+        <audio controls class="responsive-audio">
         <source src="../audio/banana.mp3" type="audio/mpeg">
         Dein Browser unterstützt das Audio-Element nicht.
       </audio>
@@ -116,7 +141,7 @@
         Besonders im Sommer essen viele Menschen gerne Wassermelonen, da sie viel Wasser enthalten und beim Abkühlen helfen.
         Ausserdem sind sie gesund und enthalten Vitamine.</p>
       
-        <audio controls>
+        <audio controls class="responsive-audio">
         <source src="../audio/watermelon.mp3" type="audio/mpeg">
         Dein Browser unterstützt das Audio-Element nicht.
       </audio>
@@ -128,7 +153,7 @@
 
 <!-- EXTRA SECTION -->
 <div class="w3-container w3-padding-32 w3-light-grey">
-  <div class="w3-row-padding">
+  <div class="w3-row-padding accordion-section">
   
   <h2>Unsere Werte</h2>
 
